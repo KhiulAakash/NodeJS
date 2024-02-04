@@ -1,0 +1,39 @@
+.addProduct{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin:0 auto;
+    padding: 10px;
+    text-align: center;
+    background: rgb(131, 131, 226);
+    border-radius: 10px;
+    gap: 5px;
+}
+.addProduct h1{
+    color: white;
+}
+.addProduct input{
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 3px;
+    border: none;
+}
+.addProduct button{
+    height: 30px;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    color: #242424;
+    cursor: pointer;
+}
+.addProduct button:hover{
+    opacity: 0.5;
+}
+.addProduct span{
+    display: block;
+    color: red;
+    font-size:small;
+    text-align: left;
+    margin-top: -5px;
+}

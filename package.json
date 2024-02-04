@@ -1,19 +1,23 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "Begineer in NodeJS",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Test123"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhiulAakash/NodeJS.git"
+  },
   "author": "Aakash Khiul",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhiulAakash/NodeJS/issues"
+  },
+  "homepage": "https://github.com/KhiulAakash/NodeJS#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "colors": "^1.4.0",
-    "simple-node-logger": "^21.8.12"
+    "colors": "^1.4.0"
   }
 }

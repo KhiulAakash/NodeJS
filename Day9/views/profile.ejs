@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+  </head>
+  <body>
+    <h1>Profile Page</h1>
+    <label>Name: <%=user.name%></label> <br />
+    <label>Email: <%=user.email%></label> <br />
+    <label>Address: <%=user.address%></label> <br />
+    <label>Skills:</label>
+    <ul>
+      <%user.skills.map((item)=>{%>
+      <li><%=item%></li>
+      <%})%>
+    </ul>
+  </body>
+</html>
