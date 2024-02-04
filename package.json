@@ -18,6 +18,11 @@
   "homepage": "https://github.com/KhiulAakash/NodeJS#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1"
   }
 }
