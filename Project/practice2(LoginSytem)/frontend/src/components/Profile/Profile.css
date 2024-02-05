@@ -1,0 +1,10 @@
+.profile #logout{
+    position: absolute;
+    right: 0px;
+}
+.profile{
+    display: flex;
+    flex-direction: column; 
+    width: fit-content;
+    margin: 0 auto;    
+}

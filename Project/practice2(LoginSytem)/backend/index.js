@@ -45,7 +45,13 @@ app.post("/login", async (req, resp) => {
         .send({ status: "User doesn't exist with the provided email" });
     if (await bcrypt.compare(password, checkUser.password)) {
       const token = jwt.sign({ user: checkUser }, JWT_SECRET);
-      resp.status(201).send({ status: "Login successful", data: token });
+      resp
+        .status(201)
+        .send({
+          status: "Login successful",
+          user: { name: checkUser.name, email: checkUser.email },
+          token: token,
+        });
     } else {
       resp.status(401).send({ status: "Invalid Password" });
     }
@@ -57,6 +63,8 @@ app.post("/login", async (req, resp) => {
     }
   }
 });
+
+//profile router
 
 app.listen(5000, () => {
   console.log("Server is running at http://localhost:5000");

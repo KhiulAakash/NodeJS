@@ -1,0 +1,16 @@
+.signup form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    gap:5px
+}
+.signup form input{
+    height: 30px;
+    padding: 0 10px;
+}
+.signup form button{
+    cursor: pointer;
+    height: 30px;
+}
