@@ -6,6 +6,10 @@ export default function Profile() {
   const [user, setUser] = useState({});
   const navigate = useNavigate();
   useEffect(() => {
+    const islogged=JSON.parse(localStorage.getItem("isLogged"));
+    if(!islogged){
+      return navigate('/login')
+    }
     try {
         const userDetails=JSON.parse(localStorage.getItem("user"))
       setUser(userDetails);

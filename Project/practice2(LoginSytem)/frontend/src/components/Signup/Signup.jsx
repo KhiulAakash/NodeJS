@@ -8,6 +8,11 @@ export default function Signup() {
     const[password,setPassword]=useState('')
     const navigate=useNavigate()
 
+    useEffect(()=>{
+      const isLogin=JSON.parse(localStorage.getItem('user'));
+      console.log(isLogin)
+    },[])
+
     const handleSubmit=async(e)=>{
         e.preventDefault();
         try {
