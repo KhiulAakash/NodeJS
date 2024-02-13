@@ -1,10 +1,25 @@
-.profile #logout{
-    position: absolute;
-    right: 0px;
+.profile-body{ 
+    height: calc(100vh - 20vh);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .profile{
+    height: fit-content;
+    width: 30%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
     display: flex;
-    flex-direction: column; 
-    width: fit-content;
-    margin: 0 auto;    
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+.profile img{
+    height: 100px;
+}
+@media screen and (max-width: 450px) {
+    .profile{
+        width: 80%;
+    }
+    
 }

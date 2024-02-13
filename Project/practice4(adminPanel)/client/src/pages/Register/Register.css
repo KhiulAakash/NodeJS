@@ -1,0 +1,48 @@
+.Register main{
+    height: calc(100vh - 20vh);
+    display: flex;
+}
+.Register main .image{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Register main .image img{
+    width: 50%;
+}
+.Register main .form{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.Register main .form form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+}
+.Register main .form form input{
+    height: 30px;
+    background-color: rgb(92, 92, 92);
+    border: none;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+.Register main .form form .btn{
+    margin-top: 20px;
+}
+.Register main .form form button{
+    height: 30px;
+    border: none;
+    background-color: #6895D2;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Register main .form form button:hover{
+    opacity: 0.5;
+}
+.Register main .form form button:active{
+    opacity: 1;
+}

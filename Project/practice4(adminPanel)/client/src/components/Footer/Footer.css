@@ -1,0 +1,8 @@
+.Footer footer{
+    background-color: #6895D2;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

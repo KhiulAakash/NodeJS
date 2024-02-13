@@ -1,0 +1,44 @@
+.navbar {
+    color: white;
+  }
+  
+  .navbar nav {
+    height: 10vh;
+    background-color: #22162b;
+  }
+  
+  .navbar nav ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar nav ul li h1 {
+    color: #e54f6d;
+  }
+  
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar nav ul .active {
+    color: #e54f6d;
+  }
+  
+  .navbar nav ul button, .navbar nav ul .logout {
+    background-color: #f8c630;
+    border: none;
+    color: rgb(97, 97, 97);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 2px;
+  }
+  
+  .navbar nav ul button:hover, .navbar nav ul .logout:hover {
+    opacity: 0.8;
+  }
+  

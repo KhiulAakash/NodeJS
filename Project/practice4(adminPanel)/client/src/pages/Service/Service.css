@@ -1,0 +1,33 @@
+.Service main section {
+  width: 80%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.Service main h1{
+    margin: 0 10%;
+    display: inline;
+    border-bottom: 2px solid #6895D2;
+}
+.Service main section .card {
+  border: 1px solid #6895D2;
+}
+.Service main section .card .image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Service main section .card .image img{
+    width: 80%;
+}
+.Service main section .card .content{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Service main section .card .pp{
+    display: flex;
+    justify-content: space-between;
+}

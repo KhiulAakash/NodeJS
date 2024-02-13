@@ -1,0 +1,29 @@
+.Navbar header{
+    height: 10vh;
+    background-color: #6895D2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar header a{
+    text-decoration: none;
+    color: white;
+}
+.Navbar header ul li .active{
+    color: #D04848;
+}
+.Navbar header .logo-brand{
+    width: 40%;
+}
+.Navbar header .logo-brand h1{
+    margin: 0 10px;
+}
+.Navbar header nav{
+    width: 60%;
+}
+.Navbar header nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
